@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: lower-alpha;
+    box-sizing: border-box;
+}
+
+a.try{
+    color: whitesmoke;
+}
+
+label[class="name"]{
+    font-family: "montserrat";
+}
+
+nav{
+    background: grey;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 2px 3px black;
+}
+label.name{
+    color: whitesmoke;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: whitesmoke;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background-color: whitesmoke;
+    transition: .5s;
+    color: black;
+}
+
+footer{
+    display: block;
+    margin: 10px 35px;
+    padding: 10px;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.hk{
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.fb{
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.twit{
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 20px;
+}
+
+.end{
+    background-color: grey;
+    height: 5px;
+    margin-top: 150px;
+    padding-bottom: 74px;
+    padding-top: -200px;
+    color: whitesmoke;
+    text-shadow: 1px 4px 3px black;
+}
+
+author{
+    float: right;
+    margin-left: 880px;
+    margin-top: 35px;
+}
+p{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: white;
+}
+
+td[class="head"]{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+td,th{
+    border: 2px solid lightslategray;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+th{
+    background-color: #BDB0D0;
+    font-family: "Montserrat";
+}
+
+tr:nth-child(even){
+    background-color: #B2FBA5;
+}
+.line{
+    background-color: #FF694F;
+    height: 3px;
+    width: 80%;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+body{
+    background:repeating-linear-gradient(#A9F1DF,#FFBBBB);
+}
